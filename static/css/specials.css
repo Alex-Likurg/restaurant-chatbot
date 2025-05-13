@@ -1,0 +1,28 @@
+body {
+    min-height: 100dvh;
+    background-image: url("../img/zvezda-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.offer {
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

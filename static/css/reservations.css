@@ -1,0 +1,19 @@
+body {
+    min-height: 100dvh;
+    background-image: url("../img/zvezda-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.reservation {
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5); /* затемнение блока на фоне */
+}

@@ -1,0 +1,96 @@
+/* Общие стили */
+body {
+    position: relative;
+    background-image: url("../img/zvezda-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Затемняющий слой */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+/* Контейнер меню */
+#menu-container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Миниатюра изображения */
+#menu-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 20px 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Модалка */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+/* Картинка в модалке */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 95vw;
+    max-width: 95vw;
+    max-height: 90vh;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Кнопка закрытия */
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Стрелки навигации */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    user-select: none;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+
+

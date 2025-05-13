@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование столика</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        input, button { display: block; margin: 10px auto; padding: 10px; width: 80%; }
+    </style>
+</head>
+<body>
+    <h1>Бронирование столика</h1>
+    <label for="date">Дата</label>
+    <input id="date" type="date">
+
+    <label for="time">Время</label>
+    <input id="time" type="time">
+
+    <input id="guests" type="number" placeholder="Количество гостей">
+    <input id="name" type="text" placeholder="Имя">
+    <input id="surname" type="text" placeholder="Фамилия">
+    <input id="phone" type="text" placeholder="Телефон">
+    <button id="bookButton">Забронировать</button>
+
+    <script src="static/js/booking.js"></script> <!-- Подключаем новый JS-файл -->
+</body>
+<link rel="stylesheet" href="/static/css/index.css">
+</html>
+

@@ -1,0 +1,33 @@
+body {
+    min-height: 100dvh;
+    background-image: url("../img/zvezda-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+input[type="date"],
+input[type="time"] {
+    width: 80% !important;
+}
+
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 5px 10%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
